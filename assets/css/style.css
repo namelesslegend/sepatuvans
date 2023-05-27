@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url("back.jpg");
+  background-repeat: unset;
+  background-size: auto;
+  background-position: center;
+}
+
+header {
+  background-color: rgb(148, 3, 3);
+  color: black;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+main {
+  padding: 20px;
+  font-size: xx-large;
+  color: rgba(255, 0, 0, 0.966), 0.966;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.outlined-text {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-shadow: 1px rgb(255, 255, 255);
+}
+
+.image-container {
+    margin-top: 80px;  
+    border: 5px solid rgb(255, 255, 255);
+    display: flex; /* Display images in a row */
+    justify-content: center; /* Distribute images evenly */
+    align-items: center; /* Center images vertically */
+  }
+
+  .image-container img {
+    border: 5px solid rgb(0, 0, 0);
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Maintain aspect ratio */
+    margin: 3px; /* Add some spacing between images */
+  }
+
+  .zoomable-image {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .zoomed-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    z-index: 9999;
+  }
+  
+  .shoe {
+      border: 5px solid rgb(8, 8, 8);
+      padding: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+  .shoe h2 {
+      font-size: 5rem;
+      color: rgb(0, 0, 0);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-bottom: 10px;
+    }
+    
+  .shoe p {
+      font-size: 4rem;
+      color: rgb(0, 0, 0);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-bottom: 10px;
+    }
+  
+  .button-link {
+      display: inline-block;
+      padding: 20px 40px;
+      background-color: #00ff0d;
+      text-decoration: none;
+      color: rgb(12, 12, 12);
+      font-size: 2rem;
+      font: bolder;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border: 2px;
+      border-radius: 2px;
+    }
+    
+
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: aqua;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
