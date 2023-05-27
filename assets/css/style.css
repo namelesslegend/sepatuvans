@@ -79,6 +79,7 @@ main {
     
   .shoe p {
       font-size: 4rem;
+      font: bolder;
       color: rgb(165, 0, 0);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       margin-bottom: 10px;
