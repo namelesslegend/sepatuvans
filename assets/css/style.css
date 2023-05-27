@@ -31,8 +31,8 @@ main {
 
 .outlined-text {
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
-  text-shadow: 1px rgb(255, 255, 255);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-shadow: 1px rgb(0, 0, 0);
 }
 
 .image-container {
@@ -72,14 +72,14 @@ main {
     
   .shoe h2 {
       font-size: 5rem;
-      color: rgb(0, 0, 0);
+      color: rgb(180, 0, 0);
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       margin-bottom: 10px;
     }
     
   .shoe p {
       font-size: 4rem;
-      color: rgb(0, 0, 0);
+      color: rgb(165, 0, 0);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       margin-bottom: 10px;
     }
